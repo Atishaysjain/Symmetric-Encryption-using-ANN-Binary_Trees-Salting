@@ -20,8 +20,6 @@ parser.add_argument("-s", "--salt", type = str, help = "salt used for encryption
 
 parser.add_argument("-u", "--user_id", type = int, help = "User Id of the user, unique for each user", default = 1)
 
-parser.add_argument("-n", "--n_nodes", type = int, help = "Number of nodes in a layer of the Artificial Neural Network", default = 16)
-
 arguments = parser.parse_args()
 
 
@@ -101,12 +99,8 @@ if __name__ == '__main__':
     input_data = arguments.input_data
     salt = arguments.salt
     user_id = arguments.user_id
-    n_nodes = arguments.n_nodes
 
-    import string    
-    import random
-    ole = 10
-    input_data = ''.join(random.choices(string.ascii_uppercase + string.digits, k = ole))    
+    n_nodes = 16 # Number of nodes in a layer of the Artificial Neural Network
 
     # Encryption Code
     inorder = []
