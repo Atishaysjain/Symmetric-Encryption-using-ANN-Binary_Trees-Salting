@@ -1,5 +1,15 @@
 ## Symmetric Encryption using Artificial Neural Network, Binary Tree Traversal, and Interleaving Salting
 
+* This repository contains the code of a novel way of symmetric encryption utilizing interleaving salting, Binary Tree traversal, and an Artificial Neural Network in a sequential manner. 
+
+* Knowledge of the encryption pipeline, salt, and neural network weights is required for decryption. As the same set of values is required for encryption and decryption, our proposed approach is a type of symmetric-key algorithm. 
+
+* Each user will have a unique key. Thus if a key attributing to a particular user is compromised, the integrity of the data of the remaining users will still be maintained. 
+
+* Our approach can be utilized to encrypt text data such as messages, documents, and letters. 
+
+**Our approach has been puplished as a research paper in the International Journal of Engineering and Advanced Technology (IJEAT). Link to the paper: [IJEATPaperLink](https://www.ijeat.org/portfolio-item/f37220811622/)** 
+
 ### Usage and Options
 Usage
 ```
